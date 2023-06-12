@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- assignment 5.1 (remove colors from list) -->
+
+    <h1>assignment 5.1 (remove colors from list)</h1>
+    <h3>select color from below</h3>
+    <select name="colors" id="colorSelect">
+        <option value="">Select</option>
+        <option value="red">Red</option>
+        <option value="green">Green</option>
+        <option value="white">Blue</option>
+        <option value="black">Orange</option>
+    </select>
+    <input type="button" value="remove color" onclick="removeColor()">
+    <hr>
+
+    <!-- assignment 5.2(change color of text) -->
+
+    <h1>assignment 5.2(change color of text)</h1>
+    <p id="textColoring" style="font-size: 30px;"> change the color of this text by using below select box</p>
+    <select name="" id="colors" onchange="changeColors()">
+        <option value="">DEFAULT COLOR</option>
+        <option value="red">red</option>
+        <option value="green">green</option>
+        <option value="blue">blue</option>
+        <option value="yellow">yellow</option>
+    </select>
+    <hr>
+
+    <!-- assignmnet 5.3(get values of first and last names) -->
+
+    <h1>assignmnet 5.3(get values of first and last names)</h1>
+    <form action="" >
+        <input type="text" name="" id="fName" value="" placeholder="first name">
+        <input type="text" name="" id="lName" value="" placeholder="last name">
+    </form>
+    <button type="submit" onclick="getNames()">OK</button>
+    <p id="fullname" style="font-size: 30px;"> </p>
+    <hr>
+
+    <!-- assignment 5.4(find the volume of a sphere) -->
+
+    <h1>assignment 5.4(find the volume of a sphere)</h1>
+
+    Enter the radius: <input type="number" name="" id="radius" value="" placeholder="centimeters">
+    <button id="findVolume" onclick="findVolume()">Calculate</button><br>
+    <h2>volume of the sphere is:</h2> <p id="volume" style="font-size: 30px; color: red; margin-top: -20px;"></p>
+    <hr>
+
+    <!-- assignment5.5 (display random images) -->
+
+    <h1>assignment5.5 (display random images)</h1>
+    <button onclick="randomPic()" >change pic</button>
+    <img src="" alt="" height="300px" width="300px" id="randomPic" style="border: 1px
+    ,solid,black;">
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
